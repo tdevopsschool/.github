@@ -15,9 +15,9 @@
 ➔ https://github.com/tdevopsschool/.github/tree/feature/add-readme/Workspace-Preparation/Windows 
 
 ### Linux 🐧
-➔ https://github.com/tdevopsschool/.github/blob/feature/add-readme/Workspace-Preparation/Linux
+➔ https://github.com/tdevopsschool/.github/tree/feature/add-readme/Workspace-Preparation/Linux
 
 ### Windows Nucleus 🤷
 You must have remote Linux VM somewhere (AWS e.g.)
 1. Install Putty for SSH connection to remote VM
-2. Install all requirements when particular topic is arised through the course
+2. Install all requirements when particular topic is arised through the course from Linux section
