@@ -1,6 +1,4 @@
-## Hi there 👋
-
-### 1. DevOps school content
+# 1. DevOps school content
 1. DevToolKit: Git, Gradle, Python
 2. Docker
 3. GitLab CI/CD
@@ -9,7 +7,7 @@
 6. CFM: Ansible, Terraform
 7. Monitoring: Prometheus, Grafana
 
-### 2. Workspace preparation
+# 2. Workspace preparation
 
 ## macOS 💻
 ### Oh my zsh
