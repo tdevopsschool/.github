@@ -1,10 +1,10 @@
 ## 1. DevOps school content
-1. DevToolKit: Git, Gradle, Python
+1. [DevToolKit: Git, Gradle, Python](https://github.com/tdevopsschool/1-DevToolKit)
 2. Docker
 3. GitLab CI/CD
 4. Kubernetes + Helm 3
 5. AWS theory
-6. CFM: Ansible, Terraform
+6. [CFM: Ansible, Terraform](https://github.com/tdevopsschool/6-CFM)
 7. Monitoring: Prometheus, Grafana
 
 #### Course Project - https://github.com/tdevopsschool/.github/tree/feature/add-readme/Course-Project
