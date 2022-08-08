@@ -7,6 +7,8 @@
 6. CFM: Ansible, Terraform
 7. Monitoring: Prometheus, Grafana
 
+#### Course Project - https://github.com/tdevopsschool/DevOps-School-README
+
 ## 2. Workspace preparation
 ### macOS 💻
 ➔ https://github.com/tdevopsschool/.github/tree/feature/add-readme/Workspace-Preparation/macOS
