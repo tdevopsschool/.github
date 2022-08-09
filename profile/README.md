@@ -1,5 +1,5 @@
 ## 1. DevOps school content
-0. [Workspace preparation consultation](https://github.com/tdevopsschool/.github/tree/feature/add-readme/Workspace-Preparation)
+0. [Workspace preparation consultation](https://github.com/tdevopsschool/.github/tree/main/Workspace-Preparation)
 1. [DevToolKit: Git, Gradle, Python](https://github.com/tdevopsschool/1-DevToolKit)
 2. Docker
 3. GitLab CI/CD
