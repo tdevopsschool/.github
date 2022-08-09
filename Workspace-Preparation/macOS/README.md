@@ -46,7 +46,20 @@ echo 'export JAVA_HOME=/Library/Java/JavaVirtualMachines/zulu-8.jdk' >> ~/.zshrc
 ➔ **WHEN NEEDED** - `1. DevToolKit module`
 
 ### PostgreSQL v.13
-- https://www.postgresql.org/download/
+`$ brew install postgresql@13`
+
+To startup once, need rerun everytime after laptop reboot
+
+`$ brew services start postgresql@13 `
+OR
+
+To start Postgresql every time after laptop reboot automatically
+
+`$ pg_ctl -D /usr/local/var/postgres start && brew services start postgresql` 
+
+ Check DB installation
+ 
+`$ postgres -V`
 
 ➔ **WHEN NEEDED** - `1. DevToolKit module`
 
