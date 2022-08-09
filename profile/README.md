@@ -8,17 +8,17 @@
 6. [CFM: Ansible, Terraform](https://github.com/tdevopsschool/6-CFM)
 7. Monitoring: Prometheus, Grafana
 
-#### Course Project - https://github.com/tdevopsschool/.github/tree/feature/add-readme/Course-Project
+#### Course Project - https://github.com/tdevopsschool/.github/tree/main/Course-Project
 
 ## 2. Workspace preparation
 ### macOS 💻
-➔ https://github.com/tdevopsschool/.github/tree/feature/add-readme/Workspace-Preparation/macOS
+➔ https://github.com/tdevopsschool/.github/tree/main/Workspace-Preparation/macOS
 
 ### Windows with admin rights 🖼
-➔ https://github.com/tdevopsschool/.github/tree/feature/add-readme/Workspace-Preparation/Windows 
+➔ https://github.com/tdevopsschool/.github/tree/main/Workspace-Preparation/Windows 
 
 ### Linux 🐧
-➔ https://github.com/tdevopsschool/.github/tree/feature/add-readme/Workspace-Preparation/Linux
+➔ https://github.com/tdevopsschool/.github/tree/main/Workspace-Preparation/Linux
 
 ### Windows Nucleus 🤷
 You must have remote Linux VM somewhere (AWS e.g.)
