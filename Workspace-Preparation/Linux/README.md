@@ -15,7 +15,7 @@ OR
 
 ### Java - OpenJDK v1.8
 Check before to install
-```
+```bash
 $ java -version
 openjdk version "1.8.0_342"
 OpenJDK Runtime Environment (Zulu 8.64.0.15-CA-macos-aarch64) (build 1.8.0_342-b07)
@@ -30,6 +30,18 @@ OpenJDK 64-Bit Server VM (Zulu 8.64.0.15-CA-macos-aarch64) (build 25.342-b07, mi
 
 ### PostgreSQL v.13
 - https://www.postgresql.org/download/
+
+➔ **WHEN NEEDED** - `1. DevToolKit module`
+
+### Yarn v.1
+- https://classic.yarnpkg.com/lang/en/docs/install/#debian-stable
+
+➔ **WHEN NEEDED** - `1. DevToolKit module`
+
+### Node v.14
+- Ubuntu - https://www.digitalocean.com/community/tutorials/how-to-install-node-js-on-ubuntu-20-04
+- CentOS - https://www.digitalocean.com/community/tutorials/how-to-install-node-js-on-centos-8
+- Manually - https://nodejs.org/en/download/
 
 ➔ **WHEN NEEDED** - `1. DevToolKit module`
 

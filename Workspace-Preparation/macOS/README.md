@@ -35,11 +35,11 @@ OR
 1. Download zip from https://www.azul.com/downloads/?version=java-8-lts&os=macos&architecture=arm-64-bit&package=jdk
 2. Unzip into /Library/Java/JavaVirtualMachines
 3. Rename folder to zulu-8.jdk
-```
+```bash
 sudo mv zulu8.64.0.15-ca-jdk8.0.342-macosx_aarch64 zulu-8.jdk
 ```
 4. Add configuration
-```
+```bash
 echo 'export JAVA_HOME=/Library/Java/JavaVirtualMachines/zulu-8.jdk' >> ~/.zshrc
 ```
 
@@ -61,6 +61,18 @@ To start Postgresql every time after laptop reboot automatically
  
 `$ postgres -V`
 
+➔ **WHEN NEEDED** - `1. DevToolKit module`
+
+### Yarn v.1
+```bash
+brew install yarn
+```
+➔ **WHEN NEEDED** - `1. DevToolKit module`
+
+### Node v.14
+```bash
+brew install node@14
+```
 ➔ **WHEN NEEDED** - `1. DevToolKit module`
 
 ### Docker and Docker-Compose
@@ -92,7 +104,7 @@ ml#installing-ansible-on-specific-operating-systems
 ## 2. Vagrant VM
 ### Apple silicon (M1) CPU
 #### Preparation
-```
+```bash
 brew install vagrant
 brew install qemu
 vagrant plugin install vagrant-qemu
@@ -112,7 +124,7 @@ LINK TO BE DONE
 
 ### Intel (x86-64) CPU
 #### Preparation
-```
+```bash
 brew install vagrant
 brew install --cask virtualbox 
 ```
