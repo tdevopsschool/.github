@@ -25,11 +25,12 @@ git clone https://github.com/tdevopsschool/6-CFM.git
 - See `vagrant -h` to list all commands
 
 #### Install all necessary tools from Linux section
-LINK TO BE DONE 
+➔ https://github.com/tdevopsschool/.github/tree/main/Workspace-Preparation/Linux
+
 ### 2. Windows subsystem linux
 
 #### Install WSL2 and Ubuntu 
 https://ubuntu.com/tutorials/install-ubuntu-on-wsl2-on-windows-10#1-overview
 
 #### Install all necessary tools from Linux section
-LINK TO BE DONE 
+➔ https://github.com/tdevopsschool/.github/tree/main/Workspace-Preparation/Linux
