@@ -57,7 +57,10 @@ To start Postgresql every time after laptop reboot automatically
 
 `$ pg_ctl -D /usr/local/var/postgres start && brew services start postgresql` 
 
- Check DB installation
+Add in PATH
+`echo 'export PATH=/opt/homebrew/opt/postgresql@13/bin:$PATH' >> ~/.zshrc`
+
+Check DB installation
  
 `$ postgres -V`
 
