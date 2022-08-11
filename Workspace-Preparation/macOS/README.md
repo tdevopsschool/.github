@@ -19,7 +19,51 @@ OR
 
 ➔ **WHEN NEEDED** - `1. DevToolKit module`
 
-## 1. Bare OS
+## 1. Vagrant (RECOMENDED)
+### Apple silicon (M1) CPU
+#### Preparation
+```bash
+brew install vagrant
+brew install qemu
+vagrant plugin install vagrant-qemu
+```
+*Source - https://github.com/ppggff/vagrant-qemu*
+
+#### VM installation
+1. Open git-bash or any another terminal with git
+2. Clone git repository [tdevopsschool/6-CFM](https://github.com/tdevopsschool/6-CFM)
+    - `git clone https://github.com/tdevopsschool/6-CFM.git`
+3. `cd mac-demo`
+4. Execute `vagrant up --provider qemu` command in directory with Vagrantfile
+5. Check the installation logs, if everything is OK you may go inside VM `vagrant ssh`
+
+#### Install all necessary tools from Linux section
+➔ https://github.com/tdevopsschool/.github/tree/main/Workspace-Preparation/Linux
+
+### Intel (x86-64) CPU
+#### Preparation
+```bash
+brew install vagrant
+brew install --cask virtualbox 
+```
+
+#### VM installation
+1. Open git-bash or any another terminal with git
+2. Clone git repository [tdevopsschool/6-CFM](https://github.com/tdevopsschool/6-CFM)
+    - `git clone https://github.com/tdevopsschool/6-CFM.git`
+3. Execute `vagrant up` command in directory with Vagrantfile
+4. Check the installation logs, if everything is OK you may go inside VM `vagrant ssh`
+
+#### Install all necessary tools from Linux section
+➔ https://github.com/tdevopsschool/.github/tree/main/Workspace-Preparation/Linux
+
+### Vagrant tips
+- Type exit command if you are inside the VM - `exit`
+- Use `vagrant halt` to stop the VM before poweroff a laptop
+- See `vagrant -h` to list all commands
+
+
+## 2. Bare OS
 
 ### Git CLI
 - Git Command Line Tool: https://git-scm.com/book/en/v2/Getting-Started-Installing-Git
@@ -104,45 +148,3 @@ ml#installing-ansible-on-specific-operating-systems
 
 ➔ **WHEN NEEDED** - `6. CFM module`
 
-## 2. Vagrant VM
-### Apple silicon (M1) CPU
-#### Preparation
-```bash
-brew install vagrant
-brew install qemu
-vagrant plugin install vagrant-qemu
-```
-*Source - https://github.com/ppggff/vagrant-qemu*
-
-#### VM installation
-1. Open git-bash or any another terminal with git
-2. Clone git repository [tdevopsschool/6-CFM](https://github.com/tdevopsschool/6-CFM)
-    - `git clone https://github.com/tdevopsschool/6-CFM.git`
-3. `cd mac-demo`
-4. Execute `vagrant up --provider qemu` command in directory with Vagrantfile
-5. Check the installation logs, if everything is OK you may go inside VM `vagrant ssh`
-
-#### Install all necessary tools from Linux section
-LINK TO BE DONE 
-
-### Intel (x86-64) CPU
-#### Preparation
-```bash
-brew install vagrant
-brew install --cask virtualbox 
-```
-
-#### VM installation
-1. Open git-bash or any another terminal with git
-2. Clone git repository [tdevopsschool/6-CFM](https://github.com/tdevopsschool/6-CFM)
-    - `git clone https://github.com/tdevopsschool/6-CFM.git`
-3. Execute `vagrant up` command in directory with Vagrantfile
-4. Check the installation logs, if everything is OK you may go inside VM `vagrant ssh`
-
-#### Install all necessary tools from Linux section
-LINK TO BE DONE 
-
-### Vagrant tips
-- Type exit command if you are inside the VM - `exit`
-- Use `vagrant halt` to stop the VM before poweroff a laptop
-- See `vagrant -h` to list all commands

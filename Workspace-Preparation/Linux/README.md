@@ -30,18 +30,31 @@ OpenJDK 64-Bit Server VM (Zulu 8.64.0.15-CA-macos-aarch64) (build 25.342-b07, mi
 
 ### PostgreSQL v.13
 - https://www.postgresql.org/download/
-
-➔ **WHEN NEEDED** - `1. DevToolKit module`
-
-### Yarn v.1
-- https://classic.yarnpkg.com/lang/en/docs/install/#debian-stable
+- CentOS 7:
+```
+sudo yum install -y https://download.postgresql.org/pub/repos/yum/reporpms/EL-7-x86_64/pgdg-redhat-repo-latest.noarch.rpm
+sudo yum install -y postgresql13-server
+sudo /usr/pgsql-13/bin/postgresql-13-setup initdb
+sudo systemctl enable postgresql-13
+sudo systemctl start postgresql-13
+```
 
 ➔ **WHEN NEEDED** - `1. DevToolKit module`
 
 ### Node v.14
 - Ubuntu - https://www.digitalocean.com/community/tutorials/how-to-install-node-js-on-ubuntu-20-04
-- CentOS - https://www.digitalocean.com/community/tutorials/how-to-install-node-js-on-centos-8
+- CentOS 7:
+```bash
+sudo su
+curl -fsSL https://rpm.nodesource.com/setup_14.x | bash -
+yum install -y nodejs
+```
 - Manually - https://nodejs.org/en/download/
+
+➔ **WHEN NEEDED** - `1. DevToolKit module`
+
+### Yarn v.1
+- https://classic.yarnpkg.com/lang/en/docs/install/#debian-stable
 
 ➔ **WHEN NEEDED** - `1. DevToolKit module`
 

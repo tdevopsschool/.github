@@ -1,7 +1,6 @@
 ## Windows with ADMIN rights 🖼
-Use `1. Vagrant` or `2. WSL` but not together
 
-### 1. Vagrant
+### 1. Vagrant (RECOMENDED)
 #### Vagrant Preparation
 1. You need some terminal to execute linux-like shell commands. Install [git-bash](https://gitforwindows.org/)
 2. Install [Vagrant](https://www.vagrantup.com/downloads) and [VirtualBox](https://www.virtualbox.org/wiki/Downloads)
