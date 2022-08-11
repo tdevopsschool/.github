@@ -14,7 +14,7 @@
 ### macOS 💻
 ➔ https://github.com/tdevopsschool/.github/tree/main/Workspace-Preparation/macOS
 
-### Windows with admin rights 🖼
+### Windows with admin and virtualization rights (not Nucleus) 🖼
 ➔ https://github.com/tdevopsschool/.github/tree/main/Workspace-Preparation/Windows 
 
 ### Linux 🐧
