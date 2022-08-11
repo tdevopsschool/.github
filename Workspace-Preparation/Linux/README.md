@@ -54,7 +54,7 @@ yum install -y nodejs
 ➔ **WHEN NEEDED** - `1. DevToolKit module`
 
 ### Yarn v.1
-- https://classic.yarnpkg.com/lang/en/docs/install/#debian-stable
+- Expand Alternatives section to choose OS - https://classic.yarnpkg.com/lang/en/docs/install/#debian-stable
 
 ➔ **WHEN NEEDED** - `1. DevToolKit module`
 
