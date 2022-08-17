@@ -129,35 +129,30 @@ brew install node@14
 ➔ **WHEN NEEDED** - `1. DevToolKit module`
 
 ### Docker and Docker-Compose
-1. Runcher desktop is free software to use docker on corporate macOS: https://rancherdesktop.io
-2. Docker-Compose: 
+1. Runcher desktop is free software to use docker on corporate macOS. It includes docker, docker-compose, kubectl, helm - https://rancherdesktop.io
+2. After rancher installation open rancher -> Preferences -> Application -> Environemnt and change configration from auto to manual. 
+3. Change `<USERNAME>` and execute
 ```bash
-brew install docker-compose
+echo 'export PATH="/Users/<USERNAME>/.rd/bin:$PATH"' >> ˜/.zshrc
 ```
 
 ➔ **WHEN NEEDED** - `2. Docker module`
 
-### Kubectl
-```bash
-brew install kubernetes-cli
-```
-OR
-- kubectl: https://kubernetes.io/docs/tasks/tools/install-kubectl/
+### Kubectl & Helm
+Kubectl and Helm are alreay avaliable from rancher desktop installation
 
 ➔ **WHEN NEEDED** - `4. Kubernetes module`
 
 ### AWS CLI, AWS-IAM-AUTHENTICATOR, EKSCTL
 1. AWS CLI: https://docs.aws.amazon.com/cli/latest/userguide/install-cliv2.html
 2. Eksctl: https://eksctl.io/introduction/#installation
-3. Aws-iam-authenticator: https://docs.aws.amazon.com/eks/latest/userguide/install-aws-iam-authentica
-tor.html
+3. Aws-iam-authenticator: https://docs.aws.amazon.com/eks/latest/userguide/install-aws-iam-authenticator.html
 
 ➔ **WHEN NEEDED** - `5. AWS module`
 
 ### CFM
 1. Terraform: https://learn.hashicorp.com/tutorials/terraform/install-cli
-2. Ansible: https://docs.ansible.com/ansible/latest/installation_guide/intro_installation.ht
-ml#installing-ansible-on-specific-operating-systems
+2. Ansible: https://docs.ansible.com/ansible/latest/installation_guide/intro_installation.html#installing-ansible-on-specific-operating-systems
 
 ➔ **WHEN NEEDED** - `6. CFM module`
 
