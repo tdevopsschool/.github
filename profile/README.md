@@ -1,7 +1,7 @@
 ## 1. DevOps school content
 0. [Workspace preparation consultation](https://github.com/tdevopsschool/.github/tree/main/Workspace-Preparation)
 1. [DevToolKit: Git, Gradle, Python](https://github.com/tdevopsschool/1-DevToolKit)
-2. Docker
+2. [Containers](https://github.com/tdevopsschool/2-Containers)
 3. [GitLab CI/CD](https://github.com/tdevopsschool/3-CICD)
 4. Kubernetes + Helm 3
 5. AWS theory
