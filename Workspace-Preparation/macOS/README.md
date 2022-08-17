@@ -129,6 +129,10 @@ brew install node@14
 ➔ **WHEN NEEDED** - `2. Docker module`
 
 ### Kubectl
+```bash
+brew install kubernetes-cli
+```
+OR
 - kubectl: https://kubernetes.io/docs/tasks/tools/install-kubectl/
 
 ➔ **WHEN NEEDED** - `4. Kubernetes module`
