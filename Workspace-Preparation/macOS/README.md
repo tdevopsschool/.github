@@ -8,6 +8,12 @@
 ### Installer/Package Manager
 - Homebrew for macOS: https://brew.sh/
 
+Change `<USERNAME>` and run these two commands in your terminal to add Homebrew to your PATH:
+```bash
+echo 'eval "$(/opt/homebrew/bin/brew shellenv)"' >> /Users/<USERNAME>/.zprofile
+eval "$(/opt/homebrew/bin/brew shellenv)"
+````
+
 ⚠️ **Strongly recommended for macbook usage by default**
 
 ### Code Editor
@@ -123,8 +129,11 @@ brew install node@14
 ➔ **WHEN NEEDED** - `1. DevToolKit module`
 
 ### Docker and Docker-Compose
-1. Docker: https://docs.docker.com/get-docker/
-2. Docker-Compose: https://docs.docker.com/compose/install/
+1. Runcher desktop is free software to use docker on corporate macOS: https://rancherdesktop.io
+2. Docker-Compose: 
+```bash
+brew install docker-compose
+```
 
 ➔ **WHEN NEEDED** - `2. Docker module`
 
