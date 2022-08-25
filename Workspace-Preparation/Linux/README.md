@@ -72,14 +72,12 @@ yum install -y nodejs
 ### AWS CLI, AWS-IAM-AUTHENTICATOR, EKSCTL
 1. AWS CLI: https://docs.aws.amazon.com/cli/latest/userguide/install-cliv2.html
 2. Eksctl: https://eksctl.io/introduction/#installation
-3. Aws-iam-authenticator: https://docs.aws.amazon.com/eks/latest/userguide/install-aws-iam-authentica
-tor.html
+3. Aws-iam-authenticator: https://docs.aws.amazon.com/eks/latest/userguide/install-aws-iam-authenticator.html
 
 ➔ **WHEN NEEDED** - `5. AWS module`
 
 ### CFM
 1. Terraform: https://learn.hashicorp.com/tutorials/terraform/install-cli
-2. Ansible: https://docs.ansible.com/ansible/latest/installation_guide/intro_installation.ht
-ml#installing-ansible-on-specific-operating-systems
+2. Ansible: https://docs.ansible.com/ansible/latest/installation_guide/intro_installation.html#installing-ansible-on-specific-operating-systems
 
 ➔ **WHEN NEEDED** - `6. CFM module`
