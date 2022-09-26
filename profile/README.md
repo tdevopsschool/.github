@@ -5,12 +5,13 @@
 3. [GitLab CI/CD](https://github.com/tdevopsschool/3-CICD)
 4. AWS theory
 5. [CFM: Ansible, Terraform](https://github.com/tdevopsschool/6-CFM) 
-6. Kubernetes + Helm 3
+6. Orchestration: Kubernetes + Helm
 7. Monitoring: Prometheus, Grafana
 
-#### Course Project - https://github.com/tdevopsschool/.github/tree/main/Course-Project
+## 2. Course Project
+- https://github.com/tdevopsschool/.github/tree/main/Course-Project
 
-## 2. Workspace preparation
+## 3. Workspace preparation
 ### macOS 💻
 ➔ https://github.com/tdevopsschool/.github/tree/main/Workspace-Preparation/macOS
 
