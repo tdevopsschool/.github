@@ -3,9 +3,9 @@
 1. [DevToolKit: Git, Gradle, Python](https://github.com/tdevopsschool/1-DevToolKit)
 2. [Containers](https://github.com/tdevopsschool/2-Containers)
 3. [GitLab CI/CD](https://github.com/tdevopsschool/3-CICD)
-4. Kubernetes + Helm 3
-5. AWS theory
-6. [CFM: Ansible, Terraform](https://github.com/tdevopsschool/6-CFM)
+4. AWS theory
+5. [CFM: Ansible, Terraform](https://github.com/tdevopsschool/6-CFM) 
+6. Kubernetes + Helm 3
 7. Monitoring: Prometheus, Grafana
 
 #### Course Project - https://github.com/tdevopsschool/.github/tree/main/Course-Project
