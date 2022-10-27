@@ -6,7 +6,7 @@
 4. [Introduction to Cloud](https://github.com/tdevopsschool/4-Introduction-to-Cloud)
 5. [IAC: Ansible, Terraform](https://github.com/tdevopsschool/5-IAC) 
 6. [Orchestration: Kubernetes + Helm](https://github.com/tdevopsschool/6-Orchestration)
-7. [Monitoring: Prometheus, Grafana](https://github.com/tdevopsschool/7-Monitoring)
+7. [Observability: Prometheus, Grafana, ELK](https://github.com/tdevopsschool/7-Monitoring)
 
 ## 2. Course Project
 - https://github.com/tdevopsschool/.github/tree/main/Course-Project
