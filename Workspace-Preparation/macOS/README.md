@@ -37,11 +37,10 @@ vagrant plugin install vagrant-qemu
 
 #### VM installation
 1. Open git-bash or any another terminal with git
-2. Clone git repository [tdevopsschool/6-CFM](https://github.com/tdevopsschool/6-CFM)
-    - `git clone https://github.com/tdevopsschool/6-CFM.git`
-3. `cd mac-demo`
-4. Execute `vagrant up --provider qemu` command in directory with Vagrantfile
-5. Check the installation logs, if everything is OK you may go inside VM `vagrant ssh`
+2. Clone git repository [tdevopsschool/5-IAC](https://github.com/tdevopsschool/5-IAC)
+    - `git clone https://github.com/tdevopsschool/5-IAC.git`
+3. Execute `vagrant up --provider qemu` command in directory with Vagrantfile
+4. Check the installation logs, if everything is OK you may go inside VM `vagrant ssh`
 
 #### Install all necessary tools from Linux section
 ➔ https://github.com/tdevopsschool/.github/tree/main/Workspace-Preparation/Linux
@@ -55,8 +54,8 @@ brew install --cask virtualbox
 
 #### VM installation
 1. Open git-bash or any another terminal with git
-2. Clone git repository [tdevopsschool/6-CFM](https://github.com/tdevopsschool/6-CFM)
-    - `git clone https://github.com/tdevopsschool/6-CFM.git`
+2. Clone git repository [tdevopsschool/5-IAC](https://github.com/tdevopsschool/5-IAC)
+    - `git clone https://github.com/tdevopsschool/5-IAC.git`
 3. Execute `vagrant up` command in directory with Vagrantfile
 4. Check the installation logs, if everything is OK you may go inside VM `vagrant ssh`
 
@@ -150,9 +149,9 @@ Kubectl and Helm are alreay avaliable from rancher desktop installation
 
 ➔ **WHEN NEEDED** - `5. AWS module`
 
-### CFM
+### IAC
 1. Terraform: https://learn.hashicorp.com/tutorials/terraform/install-cli
 2. Ansible: https://docs.ansible.com/ansible/latest/installation_guide/intro_installation.html#installing-ansible-on-specific-operating-systems
 
-➔ **WHEN NEEDED** - `6. CFM module`
+➔ **WHEN NEEDED** - `6. IAC module`
 
