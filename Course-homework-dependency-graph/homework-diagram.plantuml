@@ -27,7 +27,6 @@ package "[[https://github.com/tdevopsschool/3-CICD 3-CICD]] " #FEFECE{
 package "[[https://github.com/tdevopsschool/4-Introduction-to-Cloud 4-Introduction-to-Cloud]] " #FEFECE{
  file " cloud_no_homework " 
 } 
-
 package "[[https://github.com/tdevopsschool/5-IAC 5-IAC]] " #FEFECE {
   file " #homework #iac_1 " 
   file " #homework #iac_2 " #EB937F
@@ -35,7 +34,6 @@ package "[[https://github.com/tdevopsschool/5-IAC 5-IAC]] " #FEFECE {
   " #homework #iac_1 " -[#brown,thickness=3]down-> " #homework #iac_2 "
   " #homework #iac_2 " -[#brown,thickness=3]down-> " #homework #iac_3 "
 }
-
 package "[[https://github.com/tdevopsschool/6-Orchestration 6-Orchestration]] " #FEFECE{
  file " #homework #orchestration1 "
  file " #homework #orchestration2 " #EB937F
@@ -48,7 +46,6 @@ package "[[https://github.com/tdevopsschool/6-Orchestration 6-Orchestration]] " 
 package "[[https://github.com/tdevopsschool/7-Observability 7-Observability]] " #FEFECE{
  file " monitoring_no_homework " #EB937F
 }
-
 " #homework #devtoolkit2 "  -[#brown,thickness=3]down-> " #homework #cicd2_1 "
 " #homework #devtoolkit2 "  -[#brown,thickness=3]down-> " #homework #iac_1 "
 " #homework #devtoolkit2 " -[#brown,thickness=3]down-> " #homework #containers2 "
@@ -58,5 +55,4 @@ package "[[https://github.com/tdevopsschool/7-Observability 7-Observability]] " 
 " #homework #cicd4_2 "  -[#brown,thickness=3]down-> " #homework #orchestration3_1 "
 " #homework #orchestration3_2 " -[#brown,thickness=3]down-> " monitoring_no_homework "
 " #homework #cicd1 " -[#brown,thickness=3]down->  " #homework #iac_3 "
-
 @enduml
