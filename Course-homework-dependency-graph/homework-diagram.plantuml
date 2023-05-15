@@ -2,12 +2,12 @@
 package "[[https://github.com/tdevopsschool/1-DevToolKit 1-DevToolKit]] " #FEFECE{
   file " #homework #devtoolkit1 "
   file " #homework #devtoolkit2 " #EB937F
-  " #homework #devtoolkit1 " - " #homework #devtoolkit2 "
+  " #homework #devtoolkit1 " -down-> " #homework #devtoolkit2 "
 }
 package "[[https://github.com/tdevopsschool/2-Containers 2-Containers]] " #FEFECE{
   file " #homework #containers1 "
   file " #homework #containers2 " #EB937F
-  " #homework #containers1 " - " #homework #containers2 "
+  " #homework #containers1 " -down-> " #homework #containers2 "
 }
 package "[[https://github.com/tdevopsschool/3-CICD 3-CICD]] " #FEFECE{
   file " #homework #cicd1 " 
@@ -20,9 +20,9 @@ package "[[https://github.com/tdevopsschool/3-CICD 3-CICD]] " #FEFECE{
   " #homework #cicd2_1 " -[#brown,thickness=3]down-> " #homework #cicd2_2 "
   " #homework #cicd2_2 " -[#brown,thickness=3]down-> " #homework #cicd3_1 "
   " #homework #cicd3_1 " -[#brown,thickness=3]down-> " #homework #cicd3_2 "
-  " #homework #cicd3_2 " - " #homework #cicd4_1 "
-  " #homework #cicd4_1 " - " #homework #cicd4_2 "
-  " #homework #cicd1 "  - " #homework #cicd2_1 "
+  " #homework #cicd3_2 " -down-> " #homework #cicd4_1 "
+  " #homework #cicd4_1 " -down->" #homework #cicd4_2 "
+  " #homework #cicd1 "  -> " #homework #cicd2_1 "
 }
 package "[[https://github.com/tdevopsschool/4-Introduction-to-Cloud 4-Introduction-to-Cloud]] " #FEFECE{
  file " cloud_no_homework " 
@@ -39,20 +39,20 @@ package "[[https://github.com/tdevopsschool/6-Orchestration 6-Orchestration]] " 
  file " #homework #orchestration2 " #EB937F
  file " #homework #orchestration3_1 " #EB937F
  file " #homework #orchestration3_2 " #EB937F
- " #homework #orchestration1 " - " #homework #orchestration2 "
- " #homework #orchestration3_1 " -[#brown,thickness=3]-> " #homework #orchestration3_2 "
- " #homework #orchestration2 " -[#brown,thickness=3]-> " #homework #orchestration3_1 "
+ " #homework #orchestration1 " -->" #homework #orchestration2 "
+ " #homework #orchestration3_1 " -[#brown,thickness=3]down-> " #homework #orchestration3_2 "
+ " #homework #orchestration2 " -[#brown,thickness=3]down-> " #homework #orchestration3_1 "
 }
 package "[[https://github.com/tdevopsschool/7-Observability 7-Observability]] " #FEFECE{
  file " monitoring_no_homework " #EB937F
 }
-" #homework #devtoolkit2 "  -[#brown,thickness=3]down-> " #homework #cicd2_1 "
-" #homework #devtoolkit2 "  -[#brown,thickness=3]down-> " #homework #iac_1 "
+" #homework #devtoolkit2 "  -[#brown,thickness=3]down--> " #homework #cicd2_1 "
+" #homework #devtoolkit2 "  -[#brown,thickness=3]down--> " #homework #iac_1 "
 " #homework #devtoolkit2 " -[#brown,thickness=3]down-> " #homework #containers2 "
-" #homework #containers2 " --[#brown,thickness=3]down-> " #homework #cicd3_1 "
-" cloud_no_homework " -[#brown,dashed,thickness=3]down-> " #homework #iac_1 "
+" #homework #containers2 " -[#brown,thickness=3]down--> " #homework #cicd3_1 "
+" cloud_no_homework " -[#brown,dashed,thickness=3]down--> " #homework #iac_1 "
 " #homework #cicd3_2 " -[#brown,thickness=3]down->  " #homework #orchestration2 "
-" #homework #cicd4_2 "  -[#brown,thickness=3]down-> " #homework #orchestration3_1 "
-" #homework #orchestration3_2 " -[#brown,thickness=3]down-> " monitoring_no_homework "
+" #homework #cicd4_2 "  -[#brown,thickness=3]down--> " #homework #orchestration3_1 "
+" #homework #orchestration3_2 " -[#brown,thickness=3]down--> " monitoring_no_homework "
 " #homework #cicd1 " -[#brown,thickness=3]down->  " #homework #iac_3 "
 @enduml
