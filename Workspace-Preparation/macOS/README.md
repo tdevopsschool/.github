@@ -132,7 +132,7 @@ brew install node@14
 2. After rancher installation open rancher -> Preferences -> Application -> Environemnt and change configration from auto to manual. 
 3. Change `<USERNAME>` and execute
 ```bash
-echo 'export PATH="/Users/<USERNAME>/.rd/bin:$PATH"' >> ˜/.zshrc
+echo 'export PATH="/Users/<USERNAME>/.rd/bin:$PATH"' >> ~/.zshrc
 ```
 
 ➔ **WHEN NEEDED** - `2. Docker module`
@@ -144,7 +144,7 @@ Kubectl and Helm are alreay avaliable from rancher desktop installation
 
 ### AWS CLI, AWS-IAM-AUTHENTICATOR, EKSCTL
 1. AWS CLI: https://docs.aws.amazon.com/cli/latest/userguide/install-cliv2.html
-2. Eksctl: https://eksctl.io/introduction/#installation
+2. Eksctl: https://eksctl.io/installation/
 3. Aws-iam-authenticator: https://docs.aws.amazon.com/eks/latest/userguide/install-aws-iam-authenticator.html
 
 ➔ **WHEN NEEDED** - `5. AWS module`
